@@ -1,0 +1,9 @@
+ Listening on http://127.0.0.1:8080
+127.0.0.1 - GET / HTTP/1.1 200 594 - 20.707 ms
+127.0.0.1 - GET /javascript/angular.js HTTP/1.1 404 34 - 8.703 ms
+127.0.0.1 - GET /javascript/jquery-3.2.0.min.js HTTP/1.1 404 43 - 9.753 ms
+127.0.0.1 - GET /javascript/angular-route.min.js HTTP/1.1 404 44 - 14.794 ms
+127.0.0.1 - GET /component/header.js HTTP/1.1 404 32 - 14.514 ms
+127.0.0.1 - GET /component/footer.js HTTP/1.1 404 32 - 14.473 ms
+127.0.0.1 - GET /css/style.css HTTP/1.1 404 26 - 14.414 ms
+ Recive quit signal in worker 3972.
