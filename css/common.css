@@ -30,4 +30,10 @@ figcaption {
   box-sizing: content-box;
   font-weight: normal;
 }
+.ng-view.ng-enter {
+  animation: slideInRight 0.5s both ease-in;
+}
+.ng-view.ng-leave {
+  animation: slideOutLeft 0.5s both ease-in;
+}
 /*# sourceMappingURL=common.css.map */

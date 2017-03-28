@@ -1,4 +1,4 @@
-var app = angular.module('mySite', ['ngRoute']);
+var app = angular.module('mySite', ['ngRoute', 'ngAnimate']);
 
 app.directive('mHeader', function(){
     return{
@@ -9,9 +9,8 @@ app.directive('mHeader', function(){
                         '<div class="avatarDiv"></div>'+
                         '<span class="title">Welcome to my world!!</span>'+
                         '<ul>'+
-                            '<li ng-repeat="item in titleItems">{{test($index)}}<a href="{{item.url}}">{{item.title}}</a><div class="selectBar"></div></li>'+
+                            '<li class="item" ng-repeat="item in titleItems">{{test($index)}}<a href="{{item.url}}">{{item.title}}</a><div class="selectBar"></div></li>'+
                         '</ul>'+
-                        ''+
                     '</div>'+
                  '</header>',
         controller: function($scope, $location){
